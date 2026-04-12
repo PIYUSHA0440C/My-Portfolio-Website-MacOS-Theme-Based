@@ -12,6 +12,8 @@ const MacWindow = ({children}) => {
                 x: 300,
                 y: 200
             }}
+            minWidth={'40vh'}
+            minHeight={'40vh'}
             >
                 <div className="window">
                     <div className="nav">
