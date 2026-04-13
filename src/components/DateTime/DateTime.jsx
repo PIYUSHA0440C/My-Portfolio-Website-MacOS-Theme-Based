@@ -13,7 +13,7 @@ const DateTime = () => {
                 hour: '2-digit', 
                 minute: '2-digit', 
                 hour12: true
-            }).toLowerCase().replace(/,/g, '');
+            }).replace(/,/g, '');
             setDateTime(formattedDateTime);
         };
 
