@@ -2,18 +2,18 @@ import React from 'react'
 import { Rnd } from 'react-rnd'
 import './MacWindow.scss'
 
-const MacWindow = ({children}) => {
+const MacWindow = ({children, width='40vw', height='40vh'}) => {
     return (
         <div>
             <Rnd
             default={{
-                width:"40vw",
-                height:"40vh",
+                width: width,
+                height: height,
                 x: 300,
                 y: 200
             }}
-            minWidth={'40vh'}
-            minHeight={'40vh'}
+            minWidth={'30vw'}
+            minHeight={'30vh'}
             >
                 <div className="window">
                     <div className="nav">
